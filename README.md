@@ -1,1 +1,0 @@
-# Codeclause-Internship
