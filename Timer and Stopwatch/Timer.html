@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div>
+        <nav class="Stopnavbar">
+            <a class='Stopleft' href="Stopwatchs.html">Stopwatch</a>
+            <a class='Stopright' href="Timer.html">Timer</a>
+        </nav>
+        <h3 class="text">Set Your Timer</h3>
+        <div class="TContainer">
+          <div class="time">
+            <p>
+              <div class="inputcontainer">
+                <input type="number" name="hr" id="countH" style="width:60px" min="0" max="24" value="" placeholder="Hrs">
+                <input type="number" name="min" id="countM" style="width:60px" min="0" max="59" value="" placeholder="Min">
+                <input type="number" name="sec" id="countS" style="width:60px" min="0" max="59" value="" placeholder="Sec">
+              </div>
+            </p>
+                
+            <div id="output">00 : 00 : 00</div>
+            <div id="log"></div>
+          </div>
+        </div>
+    </div>
+    <div>
+      <button class="btn" type="button" id="b" onclick="StartCount(this)" data-set="1">Set</button>
+    </div>
+  <script src="Timer.js"></script>
+</body>
+</html>
