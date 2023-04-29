@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+    <h2>Unit Converter</h2>
+    <form name="lengthCon">
+        
+        <input class="around" type="text" name="fromValue" placeholder="Input" value="" size="5" maxlength="10">
+        <select class="movement" name=fromUnit onChange="convertUnit()">
+            <option> meters</option>
+            <option> kilometers</option>
+            <option> miles</option>
+            <option> feet </option>
+            <option> yards</option>
+        </select>
+        
+        <span class="Options"> = </span>
+        <select class="moves" name=toUnit onChange="convertUnit()">
+            <option> meters</option>
+            <option> kilometers</option>
+            <option> miles</option>
+            <option> feet</option>
+            <option> yards</option>
+        </select>
+        
+        <div class="outputbox">
+            <p class="outputborder">
+            <span id="toValue">0</span>
+            </p>
+            <p><input class="yah" type=button value="Convert" onClick="convertUnit()"></p>
+        </div>
+        <footer>
+            <div class="outputcontainer">
+            <p colspan="4"><div id="formula">? = ?</div></p>
+            </div>
+        </footer>
+            
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

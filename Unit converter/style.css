@@ -1,0 +1,77 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background: linear-gradient(to right,red,yellow);
+    font-size: 30px;
+    text-align: center;
+}
+
+/*Form To*/
+.Value, .Options{
+    font-size: 25px;
+    text-align: center;
+
+}
+
+/*Select*/
+.movement, .moves{
+    border-radius: 20px 20px;
+    padding: 13px 13px 13px 13px;
+    margin: 0px 0px 0px 0px;
+}
+.movement:hover, .moves:hover{
+    border-color: white;
+    padding: 13px 13px 13px 13px;
+}
+
+.outcontainer{
+    font-size: 0px;
+}
+
+.outputborder{
+    background-color: white;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    margin: 100px 500px 20px 480px;
+    border-radius: 30px 30px;
+}
+
+#formula{
+    font-size: 0px;
+}
+
+.around{
+    height: 40px;
+    width: 250px;
+    font-size : 20px;
+    text-align:center;
+    border-radius: 20px 20px;
+}
+
+.around:hover{
+    color: black;
+    border-color: white;
+}
+
+.yah{
+    margin-top: 20px;
+    padding: 0px 30px 0px 30px;
+    height: 40px;
+    text-align: center;
+    width: 150px;
+    border-radius: 20px 20px;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.yah:hover{
+    opacity: 0.9;
+    font-size: 25px;
+    width: 160px;
+    background-color: black;
+    color: white;
+}
